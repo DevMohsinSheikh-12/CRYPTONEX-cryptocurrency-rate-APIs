@@ -73,7 +73,7 @@ export default function CoinMarket() {
             </div>
             <div className="text content">
               <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                Today's Rate : {data?.rates?.BTC ?? "Loading..."}
+                Today's Rate : {data?.rates?.BTC ?? "Loading..."}$
               </h1>
                <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
                BTC rising fast! Stay updated with the latest rate.
@@ -114,7 +114,7 @@ export default function CoinMarket() {
             </div>
             <div className="text content">
               <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                Today's Rate : {data?.rates?.ETH ?? "Loading..."}
+                Today's Rate : {data?.rates?.ETH ?? "Loading..."}$
               </h1>
               <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
              ETH hits new highs! Track the live rate now.
@@ -162,7 +162,7 @@ export default function CoinMarket() {
             </div>
             <div className="text content">
               <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                Today's Rate :{data?.rates?.BNB ?? "Loading..."}
+                Today's Rate :{data?.rates?.BNB ?? "Loading..."}$
               </h1>
               <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
               BNB making moves! Get the latest rate here.
@@ -209,7 +209,7 @@ export default function CoinMarket() {
             </div>
             <div className="text content">
               <h1 className="font-bold text-xl md:text-2xl text-gray-50 relative z-10">
-                Today's Rate :  SOL:{data?.rates?.SOL ?? "Loading..."}
+                Today's Rate :  SOL:{data?.rates?.SOL ?? "Loading..."}$
               </h1>
               <p className="font-normal text-sm text-gray-50 relative z-10 my-4">
                SOL on the rise! Check out the live price update.
